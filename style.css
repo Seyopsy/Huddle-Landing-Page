@@ -1,0 +1,271 @@
+
+.header {
+  padding: 50px;
+  background-color: hsl(193, 100%, 96%);
+  background-image: url(images-20220617T120100Z-001/images/bg-hero-desktop.svg);
+}
+
+.top_layer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.middle_layer {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  height: 90vh;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#build {
+  color: #00252e;
+  display: flex;
+  flex-direction: column;
+}
+
+#build h1 {
+  font-weight: 700;
+  line-height: 1.2em;
+  font-size: 3.5em;
+}
+
+#build p {
+  line-height: 1em;
+  font-size: 2em;
+  font-weight: 500;
+}
+
+#top_image {
+  max-width: 42%;
+}
+
+#top_button {
+  border-radius: 30px;
+  border: 2px;
+  font-size: 20px;
+  width: 300px;
+  background-color: hsl(0, 0%, 100%);
+  height: 70px;
+  font-weight: 700;
+  color: #00252e;
+  font-size: 20px;
+  padding: 15px 20px;
+}
+
+#get_button {
+  border-radius: 30px;
+  border: 2px;
+  font-weight: 700;
+  color: white;
+  font-size: 20px;
+  padding: 15px 20px;
+  height: 70px;
+  width: 400px;
+  background-color: hsl(322, 80%, 46%);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  row-gap: 7em;
+  color: #00252e;
+  margin-top: 4em;
+  padding: 10em;
+  background-color: rgb(255, 255, 255);
+}
+
+.box {
+  display: flex;
+  width: 90%;
+  padding:6em;
+  margin: center;
+  border-radius: 3em;
+  box-shadow: 0 0 20px 0.4px rgb(185, 177, 175);
+  height: 20em;
+  justify-content: space-between;
+}
+
+#box_1{
+    height:100%;
+    width:90%;
+ align-items: center;
+ justify-content: space-around;
+}
+
+#box_1 h1{
+    font-weight: 700;
+    line-height: 1.2em;
+    font-size: 3.5em;
+  }
+
+#box_1 p {
+    line-height: 1.2em;
+    font-size: 2.5em;
+    font-weight: 500;
+  }
+
+#grow_image{
+    width: 90%;
+    float: right;
+
+}
+
+#box_2{
+    height:100%;
+    width:90%;
+ align-items: center;
+ justify-content: space-around;
+}
+
+#box_2 h1{
+    font-weight: 700;
+    line-height: 1.2em;
+    font-size: 3.5em;
+  }
+
+#box_2 p {
+    line-height: 1.2em;
+    font-size: 2.5em;
+    font-weight: 500;
+  }
+
+#flowing_image{
+    width: 90%;
+    float: right;
+
+}
+
+#box_3{
+    height:100%;
+    width:90%;
+ align-items: center;
+ justify-content: space-around;
+}
+
+#box_3 h1{
+    font-weight: 700;
+    line-height: 1.2em;
+    font-size: 3.5em;
+  }
+
+#box_3 p {
+    line-height: 1.2em;
+    font-size: 2.5em;
+    font-weight: 500;
+  }
+
+#user_image{
+    width: 90%;
+    float: right;
+
+}
+
+.box_small{
+    display: flex;
+    flex-direction: column;
+    min-width: 30%;
+    padding:6em;
+    align-content: center;
+    margin-top: 8em;
+    margin-left:auto;
+    margin-right: auto;
+    border-radius: 3em;
+    max-height: 15em;
+    box-shadow: 0 0 20px 0.4px rgb(185, 177, 175);
+    justify-content:center;
+}
+
+.box_small h1{
+    font-size: 4em;
+}
+
+#box_4{
+    height:100%;
+ align-items: center;
+
+}
+
+#footer_button{
+    border-radius: 5em;
+    border: 2px;
+    font-weight: 700;
+    color: white;
+    font-size: 40px;
+    height: 3em;
+    width: 17em;
+    background-color: hsl(322, 80%, 46%);
+
+}
+
+.footer{
+  width: 100%;
+  color: white;
+  background-color: #366672;
+  justify-content: space-between;
+}
+
+#foot{
+display: flex;
+align-items: center;
+flex-direction: column;
+  justify-content: center;
+}
+
+/* #bottom_logo{
+ 
+} */
+
+#main_footer{
+  height: 40%;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  margin-top: 2.5em;
+}
+
+#contact{
+  display: flex;
+  margin: auto;
+  align-content: space-around;
+  justify-content: space-around;
+}
+
+#call{
+  display: flex;
+}
+
+#email{
+  display: flex;
+}
+
+
+
+
+#left_main{
+justify-content: space-between;
+width: 30%;
+}
+
+#left_footer{
+  display: flex;
+  flex-direction: column;
+} 
+
+#middle_footer{
+  display: flex;
+  flex-direction: column;
+}
+
+#middle2_footer{
+  display: flex;
+  flex-direction: column;
+}
+
+.last_footer{
+  display: flex;
+  justify-content: space-around;
+} 
