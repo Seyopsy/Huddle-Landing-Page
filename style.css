@@ -11,8 +11,9 @@
   width: 100%;
 }
 
-.middle_layer {
+#middle_layer {
   display: flex;
+  flex-direction:row;
   width: 100%;
   margin: auto;
   height: 90vh;
@@ -22,6 +23,7 @@
 
 #build {
   color: #00252e;
+  justify-content: space-between;
   display: flex;
   flex-direction: column;
 }
@@ -33,13 +35,15 @@
 }
 
 #build p {
+  margin-top: -5px;
   line-height: 1em;
-  font-size: 2em;
+  font-size: 1.9em;
   font-weight: 500;
 }
 
 #top_image {
-  max-width: 42%;
+  max-width: 100%;
+
 }
 
 #top_button {
@@ -67,6 +71,11 @@
   background-color: hsl(322, 80%, 46%);
 }
 
+#get_button:hover{
+  background-color: hsl(305, 100%, 50%);
+  cursor: pointer;
+}
+
 .main {
   display: flex;
   flex-direction: column;
@@ -79,8 +88,8 @@
 
 .box {
   display: flex;
-  width: 90%;
-  padding:6em;
+  width: 100%;
+  padding:3em 6em;
   margin: center;
   border-radius: 3em;
   box-shadow: 0 0 20px 0.4px rgb(185, 177, 175);
@@ -97,14 +106,15 @@
 
 #box_1 h1{
     font-weight: 700;
-    line-height: 1.2em;
-    font-size: 3.5em;
+    line-height: 1em;
+    font-size: 3em;
   }
 
 #box_1 p {
-    line-height: 1.2em;
-    font-size: 2.5em;
-    font-weight: 500;
+  color: grey;
+    line-height: 1em;
+    font-size: 2em;
+    font-weight: 200;
   }
 
 #grow_image{
@@ -122,19 +132,20 @@
 
 #box_2 h1{
     font-weight: 700;
-    line-height: 1.2em;
-    font-size: 3.5em;
+    line-height: 1em;
+    font-size: 3em;
   }
 
 #box_2 p {
-    line-height: 1.2em;
-    font-size: 2.5em;
-    font-weight: 500;
+  color: grey;
+    line-height: 1em;
+    font-size: 2em;
+    font-weight: 200;
   }
 
 #flowing_image{
     width: 90%;
-    float: right;
+    float: left;
 
 }
 
@@ -147,14 +158,15 @@
 
 #box_3 h1{
     font-weight: 700;
-    line-height: 1.2em;
-    font-size: 3.5em;
+    line-height: 1em;
+    font-size: 3em;
   }
 
 #box_3 p {
-    line-height: 1.2em;
-    font-size: 2.5em;
-    font-weight: 500;
+  color: grey;
+    line-height: 1em;
+    font-size: 2em;
+    font-weight: 200;
   }
 
 #user_image{
@@ -179,7 +191,7 @@
 }
 
 .box_small h1{
-    font-size: 4em;
+    font-size: 3em;
 }
 
 #box_4{
@@ -194,78 +206,114 @@
     font-weight: 700;
     color: white;
     font-size: 40px;
-    height: 3em;
-    width: 17em;
+    height: 2.7em;
+    width: 14em;
     background-color: hsl(322, 80%, 46%);
 
 }
 
-.footer{
-  width: 100%;
-  color: white;
-  background-color: #366672;
-  justify-content: space-between;
+#footer_button:hover{
+  background-color: hsl(305, 100%, 50%);
+  cursor: pointer;
 }
 
 #foot{
-display: flex;
-align-items: center;
-flex-direction: column;
-  justify-content: center;
+  padding: 4em 40px 1em 50px;
 }
 
-/* #bottom_logo{
- 
-} */
+footer{
+  font-weight: 300;
+  color: white;
+  margin: auto;
+  background-color:#00252e;
+}
+
+#bottom_logo{
+  position:relative;
+  display: flex;
+  height:25px;
+  top: 15px;
+  width: 150px;
+  margin-left: 55px;
+}
 
 #main_footer{
-  height: 40%;
-  width: 80%;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  float:left;
+  justify-content: space-around;
   font-weight: 400;
-  margin-top: 2.5em;
+  margin-top: 1.8em;
 }
 
-#contact{
+.icon_logo{
+  position:relative;
   display: flex;
-  margin: auto;
-  align-content: space-around;
-  justify-content: space-around;
+  width:20px;
+  justify-content: center;
+  height:18px;
+  margin-left: -110px;
+  top: 15px;
+  margin-right: 20px;
 }
+
+#left_main{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 18%
+
+}
+
+#location{
+  display: flex;
+  direction:initial;
+  justify-content: space-between;
+
+} 
 
 #call{
   display: flex;
+  direction:initial;
+  justify-content: space-between;
 }
 
 #email{
   display: flex;
-}
+  direction:initial;
+  justify-content: space-between;
 
-
-
-
-#left_main{
-justify-content: space-between;
-width: 30%;
-}
-
-#left_footer{
-  display: flex;
-  flex-direction: column;
 } 
 
 #middle_footer{
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 #middle2_footer{
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  line-height: 10px;
 }
 
-.last_footer{
+#copyright{
+  width:100%;
   display: flex;
-  justify-content: space-around;
-} 
+ margin-top: 5em;
+}
+
+#last_footer p{
+margin-top: 8em;
+}  
+
+#last_footer {
+  justify-content: space-evenly;
+  }  
+
+
+  @media screen {
+    
+  }
