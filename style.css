@@ -2,7 +2,6 @@
 .header {
   padding: 50px;
   background-color: hsl(193, 100%, 96%);
-  fill: hsl(193, 100%, 96%);
   background-image: url(images-20220617T120100Z-001/images/bg-hero-desktop.svg);
 }
 
@@ -239,7 +238,7 @@ justify-content: space-around;
 
 footer{
   font-weight: 300;
-  color: white;
+  color: rgb(194, 184, 184);
   margin: auto;
   background-color:#00252e;
 }
@@ -326,8 +325,152 @@ justify-content: flex-end;
 }  
 
 
-  @media screen {} max-width: 768px) ;
-  {
+  @media screen and (max-width: 768px) {
+    .header {
+      width:100%;
+      height: 100%;
+      padding: 50px;
+      background-color: hsl(193, 100%, 96%);
+      background-image: url(images-20220617T120100Z-001/images/bg-hero-desktop.svg);
+    }
+
+    #build {
+      color: #00252e;
+      width:100%;
+      margin-top: 2em;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+
+    #middle_layer {
+      display: flex;
+      flex-direction:column;
+      width: 100%;
+      margin: auto;
+      height: 100%;
+      align-items: center;
 
   }
     
+  #build h1{
+    text-align: center;
+  }
+
+  #build p {
+width:80%;
+text-align: center;
+  }
+
+  #top_image {
+    margin-top: 40px;
+    justify-items: center;
+    justify-content: center;
+  
+  }
+  
+  #get_button {
+    background-color: hsl(305, 100%, 50%);
+    margin-top: 20px;
+  }
+
+
+  #logo {
+    max-width: 50%;
+    float: left;
+  
+  }
+  
+  #top_button {
+ max-width: 70%;
+ float:right;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    row-gap: 2em;
+    color: #00252e;
+    padding: 2em 2em 2em 2em;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .box {
+    width: 100%;
+    padding:1em 2em;
+    margin: center;
+    font-weight: 400;
+
+  }
+
+  #box_1{
+    display: flex;
+    flex-direction: column-reverse;
+ text-align: center;
+}
+
+#box_2{
+  display: flex;
+  flex-direction: column;
+text-align: center;
+}
+
+#box_3{
+  display: flex;
+  flex-direction: column-reverse;
+align-items: center;
+text-align: center;
+}
+
+.box_small{
+  font-size: 10px;
+  margin-top: 30px;
+  width: 85%;
+}
+
+#bottom_logo{
+  display: flex;
+  margin-left: -7em;
+  float: left;
+
+}
+
+
+#footer_button{
+  width:20em;
+  margin-bottom: 20px;
+  background-color: hsl(305, 100%, 50%);
+}
+
+footer{
+  width:37em;
+  margin-top: 3.5em;
+  height: 100%;
+}
+
+#main_footer{
+  width: 100%;
+  display: grid;
+
+}
+
+  #left_main{
+    width: 100%
+  }
+
+  #middle2_footer{
+margin-left:-6.6em;
+  }
+
+  #middle_footer{
+    margin-top: 3em;
+    margin-left:-6.6em;
+      }
+
+  .icon_logo{
+    justify-content: center;
+  }
+}
