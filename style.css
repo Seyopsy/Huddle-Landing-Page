@@ -23,6 +23,7 @@
 
 #build {
   color: #00252e;
+  width:50%;
   justify-content: space-between;
   display: flex;
   flex-direction: column;
@@ -30,19 +31,24 @@
 
 #build h1 {
   font-weight: 700;
+  margin-top: 30px;
+  width: 100%;
+  height: 100;
   line-height: 1.2em;
-  font-size: 3.5em;
+  font-size: 2.5em;
 }
 
 #build p {
-  margin-top: -5px;
   line-height: 1em;
-  font-size: 1.9em;
+  margin-bottom: 30px;
+  width:100%;
+  font-size: 1em;
   font-weight: 500;
 }
 
 #top_image {
-  max-width: 100%;
+  max-width: 90%;
+  float: right;
 
 }
 
@@ -50,24 +56,24 @@
   border-radius: 30px;
   border: 2px;
   font-size: 20px;
-  width: 300px;
+  width: 150px;
   background-color: hsl(0, 0%, 100%);
-  height: 70px;
+  height: 35px;
   font-weight: 700;
   color: #00252e;
-  font-size: 20px;
-  padding: 15px 20px;
+  font-size: 10px;
+  padding: 4px 6px;
 }
 
 #get_button {
-  border-radius: 30px;
+  border-radius: 20px;
   border: 2px;
   font-weight: 700;
   color: white;
-  font-size: 20px;
-  padding: 15px 20px;
-  height: 70px;
-  width: 400px;
+  font-size: 10px;
+  padding: 4px 6px;
+  height: 35px;
+  width: 210px;
   background-color: hsl(322, 80%, 46%);
 }
 
@@ -81,8 +87,7 @@
   flex-direction: column;
   row-gap: 7em;
   color: #00252e;
-  margin-top: 4em;
-  padding: 10em;
+  padding: 7em 7em 10em 5em;
   background-color: rgb(255, 255, 255);
 }
 
@@ -91,9 +96,9 @@
   width: 100%;
   padding:3em 6em;
   margin: center;
-  border-radius: 3em;
+  border-radius: 1em;
   box-shadow: 0 0 20px 0.4px rgb(185, 177, 175);
-  height: 20em;
+  height: 15em;
   justify-content: space-between;
 }
 
@@ -106,40 +111,42 @@
 
 #box_1 h1{
     font-weight: 700;
-    line-height: 1em;
-    font-size: 3em;
+    line-height: 0.7em;
+    font-size: 2.3em;
   }
 
 #box_1 p {
   color: grey;
     line-height: 1em;
-    font-size: 2em;
+    font-size: 1.2em;
+    width: 95%;
     font-weight: 200;
   }
 
 #grow_image{
-    width: 90%;
+    width: 100%;
     float: right;
 
 }
 
 #box_2{
-    height:100%;
-    width:90%;
- align-items: center;
- justify-content: space-around;
+  height:100%;
+  width:90%;
+align-items: center;
+justify-content: space-around;
 }
 
 #box_2 h1{
-    font-weight: 700;
-    line-height: 1em;
-    font-size: 3em;
+  font-weight: 700;
+  line-height: 0.7em;
+  font-size: 2.3em;
   }
 
 #box_2 p {
   color: grey;
     line-height: 1em;
-    font-size: 2em;
+    font-size: 1.2em;
+    width: 95%;
     font-weight: 200;
   }
 
@@ -150,22 +157,23 @@
 }
 
 #box_3{
-    height:100%;
-    width:90%;
- align-items: center;
- justify-content: space-around;
+  height:100%;
+  width:90%;
+align-items: center;
+justify-content: space-around;
 }
 
 #box_3 h1{
-    font-weight: 700;
-    line-height: 1em;
-    font-size: 3em;
+  font-weight: 700;
+  line-height: 0.7em;
+  font-size: 2.3em;
   }
 
 #box_3 p {
   color: grey;
     line-height: 1em;
-    font-size: 2em;
+    font-size: 1.2em;
+    width: 95%;
     font-weight: 200;
   }
 
@@ -178,20 +186,19 @@
 .box_small{
     display: flex;
     flex-direction: column;
-    min-width: 30%;
-    padding:6em;
+    padding:4em;
     align-content: center;
-    margin-top: 8em;
+    margin-top: 2em;
     margin-left:auto;
     margin-right: auto;
-    border-radius: 3em;
+    border-radius: 1em;
     max-height: 15em;
     box-shadow: 0 0 20px 0.4px rgb(185, 177, 175);
     justify-content:center;
 }
 
 .box_small h1{
-    font-size: 3em;
+    font-size: 2em;
 }
 
 #box_4{
@@ -201,14 +208,15 @@
 }
 
 #footer_button{
-    border-radius: 5em;
-    border: 2px;
-    font-weight: 700;
-    color: white;
-    font-size: 40px;
-    height: 2.7em;
-    width: 14em;
-    background-color: hsl(322, 80%, 46%);
+  border-radius: 20px;
+  border: 2px;
+  font-weight: 700;
+  color: white;
+  font-size: 10px;
+  padding: 4px 6px;
+  height: 45px;
+  width: 300px;
+  background-color: hsl(322, 80%, 46%);
 
 }
 
@@ -218,7 +226,7 @@
 }
 
 #foot{
-  padding: 4em 40px 1em 50px;
+  padding: 8em 8em 0em 8em;
 }
 
 footer{
@@ -229,12 +237,11 @@ footer{
 }
 
 #bottom_logo{
-  position:relative;
   display: flex;
   height:25px;
   top: 15px;
+  margin-left: -4.5em;
   width: 150px;
-  margin-left: 55px;
 }
 
 #main_footer{
@@ -243,7 +250,7 @@ footer{
   float:left;
   justify-content: space-around;
   font-weight: 400;
-  margin-top: 1.8em;
+  margin-top: 1em;
 }
 
 .icon_logo{
@@ -262,12 +269,13 @@ footer{
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-start;
-  width: 18%
+  width: 30%
 
 }
 
 #location{
   display: flex;
+  width:100%;
   direction:initial;
   justify-content: space-between;
 
@@ -296,7 +304,6 @@ footer{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  line-height: 10px;
 }
 
 #copyright{
@@ -307,11 +314,8 @@ footer{
 
 #last_footer p{
 margin-top: 8em;
+justify-content: flex-end;
 }  
-
-#last_footer {
-  justify-content: space-evenly;
-  }  
 
 
   @media screen {
