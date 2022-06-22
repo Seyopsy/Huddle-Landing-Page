@@ -2,6 +2,7 @@
 .header {
   padding: 50px;
   background-color: hsl(193, 100%, 96%);
+  fill: hsl(193, 100%, 96%);
   background-image: url(images-20220617T120100Z-001/images/bg-hero-desktop.svg);
 }
 
@@ -187,10 +188,13 @@ justify-content: space-around;
     display: flex;
     flex-direction: column;
     padding:4em;
+    background-color: white;
     align-content: center;
     margin-top: 2em;
     margin-left:auto;
+    margin-bottom: -15em;
     margin-right: auto;
+    position: relative;
     border-radius: 1em;
     max-height: 15em;
     box-shadow: 0 0 20px 0.4px rgb(185, 177, 175);
@@ -199,12 +203,12 @@ justify-content: space-around;
 
 .box_small h1{
     font-size: 2em;
+    color: #00252e;
 }
 
 #box_4{
     height:100%;
  align-items: center;
-
 }
 
 #footer_button{
@@ -318,6 +322,8 @@ justify-content: flex-end;
 }  
 
 
-  @media screen {
-    
+  @media screen {} max-width: 768px) ;
+  {
+
   }
+    
