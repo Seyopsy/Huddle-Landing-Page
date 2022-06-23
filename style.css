@@ -1,3 +1,7 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 .header {
   padding: 50px;
   background-color: hsl(193, 100%, 96%);
@@ -60,7 +64,7 @@
   font-weight: 700;
   color: #00252e;
   font-size: 10px;
-  padding: 4px 6px;
+  padding: 3px 4px;
 }
 
 #top_button:hover {
@@ -315,7 +319,10 @@ footer {
   justify-content: flex-end;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
+  body {
+    width: 70%;
+  }
   .header {
     width: 100%;
     height: 100%;
@@ -326,7 +333,7 @@ footer {
 
   #build {
     color: #00252e;
-    width: 100%;
+    width: 120%;
     margin-top: 2em;
     justify-content: center;
     align-items: center;
@@ -345,6 +352,7 @@ footer {
 
   #build h1 {
     text-align: center;
+    font-size: 1.7em;
   }
 
   #build p {
@@ -364,7 +372,8 @@ footer {
   }
 
   #logo {
-    max-width: 50%;
+    max-width: 70%;
+    height: 70%;
     float: left;
   }
 
@@ -411,9 +420,11 @@ footer {
   }
 
   .box_small {
-    font-size: 10px;
+    font-size: 7px;
     margin-top: 30px;
-    width: 85%;
+    width: 90%;
+    position: relative;
+    margin-bottom: -18em;
   }
 
   #bottom_logo {
@@ -423,13 +434,15 @@ footer {
   }
 
   #footer_button {
-    width: 20em;
+    width: 17em;
+    height: 3em;
+    margin-top: 10px;
     margin-bottom: 20px;
     background-color: hsl(305, 100%, 50%);
   }
 
   footer {
-    width: 37em;
+    width: 22.7em;
     margin-top: 3.5em;
     height: 100%;
   }
@@ -452,7 +465,7 @@ footer {
     margin-left: -6.6em;
   }
 
-  .icon_logo {
-    justify-content: center;
+  #last_footer p {
+    margin-top: 8px;
   }
 }
